@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="951361e5-6c6a-42af-8288-8665058d323c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/InvalidIsoVolumeDescriptorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/Iso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoDirectoryTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoFileEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoPathTableEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoRandomAccessFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoVolumeDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoVolumeDescriptorType.java" afterDir="false" />
-    </list>
+    <list default="true" id="951361e5-6c6a-42af-8288-8665058d323c" name="Changes" comment="Initial" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,8 +58,16 @@
       <workItem from="1684462183010" duration="1302000" />
       <workItem from="1684463669631" duration="36000" />
       <workItem from="1684463741784" duration="26931000" />
-      <workItem from="1684503579563" duration="39201000" />
+      <workItem from="1684503579563" duration="39650000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1684564347557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684564347557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
 </project>
