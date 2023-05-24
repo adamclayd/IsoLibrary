@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="951361e5-6c6a-42af-8288-8665058d323c" name="Changes" comment="Initial" />
+    <list default="true" id="951361e5-6c6a-42af-8288-8665058d323c" name="Changes" comment="Initial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoBootVolumeDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoDirectoryEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoFileInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoPathTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoPrimaryVolumeDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/isolib/RandomAccessBytes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isolib/InvalidIsoVolumeDescriptorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isolib/Iso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isolib/Iso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isolib/IsoDirectoryTreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isolib/IsoFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isolib/IsoFileEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoFileEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isolib/IsoPathTableEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoPathTableEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isolib/IsoRandomAccessFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoRandomAccessFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isolib/IsoVolumeDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoVolumeDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/isolib/IsoVolumeDescriptorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/isolib/IsoVolumeDescriptorType.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -29,24 +48,46 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Pza4mxWMzMSUTAsKFoSDssLKBp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Adam/Downloads/intellij-javadocs-4.0.2.zip&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Adam/Downloads/intellij-javadocs-4.0.2.zip",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="IsoLibrary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +99,8 @@
       <workItem from="1684462183010" duration="1302000" />
       <workItem from="1684463669631" duration="36000" />
       <workItem from="1684463741784" duration="26931000" />
-      <workItem from="1684503579563" duration="39650000" />
+      <workItem from="1684503579563" duration="103785000" />
+      <workItem from="1684768478790" duration="72207000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1684564347557</created>
@@ -67,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684564347557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial">
+      <created>1684564863584</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684564863584</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

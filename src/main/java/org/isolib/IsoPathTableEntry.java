@@ -3,23 +3,26 @@ package org.isolib;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-public class IsoPathTableEntry {
-    private long location;
+class IsoPathTableEntry {
     private byte length;
     private byte numSectorsInExtRecord;
-    private int sectorNumber;
+    private int sector;
     private short parentRecordNumber;
     private String name;
 
-    public IsoPathTableEntry(RandomAccessFile iso) throws IOException {
-
-        location = iso.getFilePointer();
+    public IsoPathTableEntry(RandomAccessFile iso, boolean isLittleEndian) throws IOException {
 
         length = iso.readByte();
         numSectorsInExtRecord = iso.readByte();
 
-        sectorNumber = Integer.reverseBytes(iso.readInt());
-        parentRecordNumber = Short.reverseBytes(iso.readShort());
+        if(isLittleEndian) {
+            sector = Integer.reverseBytes(iso.readInt());
+            parentRecordNumber = Short.reverseBytes(iso.readShort());
+        }
+        else {
+            sector = iso.readInt();
+            parentRecordNumber = iso.readShort();
+        }
 
         byte[] buff = new byte[(int)length];
         iso.read(buff);
@@ -29,8 +32,8 @@ public class IsoPathTableEntry {
             iso.seek(iso.getFilePointer() + 1);
     }
 
-    public int getSectorNumber() {
-        return sectorNumber;
+    public int getSector() {
+        return sector;
     }
 
     public int getParentRecordNumber() {
@@ -38,10 +41,10 @@ public class IsoPathTableEntry {
     }
 
     public String getName() {
-        String ret = name;
-        if(name.compareTo("\0") == 0)
-            ret = "/";
+        return name;
+    }
 
-        return ret;
+    public byte getNumSectorsInExtRecord() {
+        return numSectorsInExtRecord;
     }
 }
